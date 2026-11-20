@@ -1,5 +1,3 @@
-def get_greeting(name: str = "World") -> str:
-    return f"Hello, {name}!"
+from .main import get_greeting
 
-def main() -> None:
-    print(get_greeting())
+__all__ = ["get_greeting"]
